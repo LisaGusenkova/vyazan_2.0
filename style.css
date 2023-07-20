@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap");
+
+        .layout {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 30px;
+            font-family: 'Wix Madefor Display', sans-serif;
+        }
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 87.6%;
+        }
+        h2 {
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+        }
+        p {            
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 128%;}
+        a {
+            border: none;
+            text-decoration: none;
+            color: inherit;
+        }
+        .header {
+          display: flex;  
+        }
+        .header_logo {
+            width: 233px;
+            height: 91px;
+        }
+        .header_nav {
+            display: flex;
+        }
+        .header_list {
+            display: flex;
+            list-style: none;
+            gap: 36px;
+            align-items: center;
+            padding-inline-start: 36px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        .header_icon {
+            width:50px;
+            height: 50px;
+            display:flex;
+            margin-left: 213px;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        main {
+            margin-top: 60px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    
+        .main_text { 
+            margin-bottom: 25px;
+        }
+
+        .main_h1 {
+            margin: 0px 428px 0px 0px;
+        }
+        .main_paragraph {
+            margin: 17px 211px 0px 0px;
+        }
+
+        .main_image_1 {
+            margin: 0px 20px 0px 0px;
+        }
+        .main_image_2 {
+            margin: 0px 20px 0px 0px;
+        }
+        .main_image_3 {
+            margin: 0px 0px 0px 0px;
+        }
+        .main_image_label {
+            display:flex;
+        }
+        .main_image_label_1 {
+            margin: 9px 22px 0px 0px;
+            padding-right: 85px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+        }
+        .main_image_label_2 {
+            margin: 9px 15px 0px 0px;
+            padding-right: 160px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        .main_image_label_3 {
+            margin: 9px 20px 0px 0px;
+            padding-right: 190px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+        }
+        .delivery {
+            margin-top: 68px;
+        }
+        .delivery_h2 {
+            margin: 0px 480px 0px 0px;
+        }
+        .delivery_about {
+            margin: 15px 713px 44px 0px;
+        }
+        .delivery_button {
+            margin: 0px 784px 47px 0px;
+            border:0;
+            border-radius: 5px;
+            padding: 2px 37px 8px 37px;
+            background-color: #FFE34F;
+            text-align: center;
+            font-family: "Wix Madefor Display", sans-serif;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 500;
+
+        }
+        footer {
+            width: 100%;
+            margin-bottom: 28px;
+            display:flex;
+            align-content: space-around;  
+            align-items: center;
+        }
+        .footer_title_text {
+            width: 94px;
+            height: 24px;
+            margin: 0px 588px 0px 0px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .footer_phone_number_text {
+            margin: 0px 19px 0px 0px;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 128.9%; /* 19.335px */
+            letter-spacing: 0.75px;
+        }
+        .footer_icons {
+            width: auto;
+            margin-top: 4px;
+            align-items: baseline;
+        }
+        .footer_icons_facebook {
+            width: 23.89px;
+            height: 22.625px;
+            margin-right: 11.88px;
+        }
+        .footer_icons_youtube {
+            width: 29.862px;
+            height: 22.625px;
+            margin-right: 11.88px;
+        }
+        .footer_icons_instagram {
+            width: 23.89px;
+            height: 22.625px;
+            margin-right:35.88px;
+        }
